@@ -1,91 +1,128 @@
-# COMET – Real-Time Fraud Detection Banking System
+# 💳 COMET – Real-Time Fraud Detection Banking System
 
-COMET is a full-stack banking management system built using the MERN stack to simulate a secure digital banking environment. The platform provides dedicated portals for customers, employees, and administrators while integrating intelligent fraud detection, secure authentication, transaction management, and banking operations into a single application.
+![COMET Dashboard](screenshots/customer_dash.png)
 
-The project was developed to explore modern backend development, database optimization, authentication, and security concepts while applying real-world software engineering practices.
+A full-stack banking management system built using the **MERN Stack** that simulates a secure digital banking environment. COMET provides dedicated portals for customers, employees, and administrators while integrating secure authentication, transaction management, loan processing, fraud detection, and database optimization into a single platform.
 
----
-
-## Features
-
-### Customer Portal
-
-* Secure login with OTP verification
-* Personalized account dashboard
-* Money transfers between accounts
-* Bill payments
-* Loan applications
-* Card service requests
-* Branch locator
-* Transaction history
-
-### Employee Portal
-
-* Customer account management
-* Loan approval and processing
-* Card request management
-* Transaction monitoring
-* Customer support operations
-
-### Administrator Dashboard
-
-* User and employee management
-* Branch management
-* Banking analytics dashboard
-* Fraud monitoring and risk analysis
-* System administration
-
-### Fraud Detection & Security
-
-* Role-Based Access Control (RBAC)
-* JWT authentication
-* OTP verification
-* Location-based fraud detection
-* Automatic risk alerts
-* High-risk account monitoring and account freeze functionality
-
-### Database & Backend
-
-* MongoDB indexing for faster queries
-* Aggregation pipelines for analytics and reporting
-* Schema validation
-* TTL indexes for automatic session expiration
-* Concurrency control for secure banking transactions
+The project was developed to explore modern backend development, secure authentication, database optimization, and real-world software engineering practices.
 
 ---
 
-## Tech Stack
+# ✨ Features
+
+### 👤 Customer Portal
+- Secure Login with OTP Verification
+- Personalized Account Dashboard
+- Money Transfers
+- Bill Payments
+- Loan Applications
+- Card Service Requests
+- Branch Locator
+- Transaction History
+
+### 👨‍💼 Employee Portal
+- Customer Management
+- Loan Approval & Processing
+- Card Request Management
+- Transaction Monitoring
+- Customer Support Operations
+
+### 🛡️ Administrator Dashboard
+- User Management
+- Branch Management
+- Banking Analytics
+- Fraud Monitoring
+- Risk User Analysis
+- System Administration
+
+### 🔒 Security
+- JWT Authentication
+- Role-Based Access Control (RBAC)
+- OTP Verification
+- Location-Based Fraud Detection
+- Automatic Risk Alerts
+- High-Risk Account Monitoring
+- Account Freeze for Suspicious Activity
+
+### ⚡ Database & Backend
+- MongoDB Indexing
+- Aggregation Pipelines
+- Schema Validation
+- TTL Indexes for Automatic Session Expiration
+- Concurrency Control for Sensitive Banking Transactions
+
+---
+
+# 📸 Application Overview
+
+## 👤 Customer Dashboard
+
+The customer dashboard provides quick access to account information, recent transactions, and essential banking services such as transfers, bill payments, loans, and card requests.
+
+![Customer Dashboard](screenshots/customer_dash.png)
+
+---
+
+## 👨‍💼 Employee Dashboard
+
+Employees can manage customer accounts, process loan applications, monitor transactions, and handle daily banking operations from a centralized dashboard.
+
+![Employee Dashboard](screenshots/employee_dash.png)
+
+---
+
+## 📊 Administrator Analytics Dashboard
+
+Administrators can monitor banking activity through visual analytics, track system performance, and gain insights into transactions and user activity.
+
+![Analytics Dashboard](screenshots/analytics_foradmin.png)
+
+---
+
+## 🚨 Fraud Detection Dashboard
+
+The fraud monitoring module identifies suspicious banking activity using location-based risk analysis and enables administrators to investigate and respond to potential threats.
+
+![Fraud Detection](screenshots/fraud_manage.png)
+
+---
+
+## ⚠️ Risk User Analytics
+
+High-risk users are automatically highlighted based on suspicious behavior, allowing administrators to review accounts and take appropriate security actions.
+
+![Risk User Analytics](screenshots/riskuser_analytics.png)
+
+---
+
+# 🛠 Tech Stack
 
 ### Frontend
-
-* React.js
-* HTML
-* CSS
-* JavaScript
-* Tailwind CSS
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- Tailwind CSS
 
 ### Backend
-
-* Node.js
-* Express.js
-* REST APIs
-* JWT Authentication
+- Node.js
+- Express.js
+- REST APIs
+- JWT Authentication
 
 ### Database
-
-* MongoDB
+- MongoDB
 
 ### Tools
-
-* Git
-* GitHub
-* Postman
+- Git
+- GitHub
+- Postman
 
 ---
 
-## Project Structure
+# 📂 Project Structure
 
-```
+```text
 COMET/
 ├── banking-frontend/
 ├── banking-backend/
@@ -95,16 +132,34 @@ COMET/
 
 ---
 
-## Learning Outcomes
+# 📚 Learning Outcomes
 
 This project strengthened my understanding of:
 
-* Full-stack web development using the MERN stack
-* Secure authentication and authorization
-* Backend API development
-* Database design and optimization
-* MongoDB indexing and aggregation pipelines
-* Fraud detection workflows
-* Role-based access control
-* Building scalable and secure applications
+- Full-Stack MERN Development
+- Secure Authentication & Authorization
+- Backend API Development
+- Database Design & Optimization
+- MongoDB Indexing & Aggregation Pipelines
+- Role-Based Access Control (RBAC)
+- Fraud Detection Workflows
+- Concurrency Control
+- Building Secure & Scalable Applications
 
+---
+
+# 🚀 Future Improvements
+
+- AI/ML-based Fraud Detection
+- Two-Factor Authentication (2FA)
+- Email & SMS Notifications
+- Docker Containerization
+- Cloud Deployment
+- Real-Time Transaction Notifications
+
+---
+
+# 👥 Contributors
+
+- **Fatima Niazi** - [@Fatimaniazi09](https://github.com/Fatimaniazi09)
+- **Sulaifa** - [@USERNAME](https://github.com/USERNAME)
